@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="سالاد تازه">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#292a25"/><stop offset="1" stop-color="#141513"/></linearGradient><linearGradient id="bowl" x2="0" y2="1"><stop stop-color="#f1e8d0"/><stop offset="1" stop-color="#b8a98b"/></linearGradient></defs>
+  <rect width="900" height="560" fill="url(#bg)"/><ellipse cx="450" cy="420" rx="300" ry="54" fill="#080908" opacity=".55"/>
+  <path d="M150 275 Q450 505 750 275 L685 412 Q450 505 215 412Z" fill="url(#bowl)" stroke="#f8eed4" stroke-width="8"/>
+  <ellipse cx="450" cy="270" rx="300" ry="145" fill="#477d37" stroke="#86b95c" stroke-width="12"/>
+  <path d="M215 280 Q275 168 348 244 T470 220 T610 230 T700 270 Q635 334 565 289 T440 315 T315 295Z" fill="#72a94b"/>
+  <path d="M250 258 Q290 174 345 212 Q380 258 325 286Z M410 230 Q455 160 500 205 Q520 252 460 276Z M555 260 Q592 184 645 224 Q665 268 603 292Z" fill="#9bcf63"/>
+  <g fill="#df493a" stroke="#f97d5e" stroke-width="7"><circle cx="320" cy="256" r="44"/><circle cx="510" cy="300" r="40"/><circle cx="610" cy="235" r="34"/></g>
+  <g fill="#e9d98c" stroke="#fff1b3" stroke-width="8"><circle cx="320" cy="256" r="15"/><circle cx="510" cy="300" r="14"/><circle cx="610" cy="235" r="12"/></g>
+  <g fill="#70c3a2" stroke="#b4e6b4" stroke-width="8"><ellipse cx="415" cy="218" rx="35" ry="24" transform="rotate(-24 415 218)"/><ellipse cx="560" cy="205" rx="35" ry="24" transform="rotate(25 560 205)"/><ellipse cx="390" cy="323" rx="36" ry="23" transform="rotate(12 390 323)"/></g>
+  <g fill="#d7b37c"><rect x="365" y="180" width="85" height="22" rx="9" transform="rotate(-16 365 180)"/><rect x="465" y="232" width="90" height="22" rx="9" transform="rotate(17 465 232)"/><rect x="260" y="310" width="90" height="20" rx="9" transform="rotate(-25 260 310)"/></g>
+</svg>

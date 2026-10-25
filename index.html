@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="منوی دیجیتال MOON؛ برگر، پیتزا، سوخاری و خوراکی‌های محبوبت را ببین و راحت سفارش بده.">
+  <title>MOON | منوی فست‌فود</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Estedad:wght@400;500;600;700;800&family=Lalezar&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="MOON، صفحه اصلی">
+        <span class="brand-word">MOON<span class="brand-dot">.</span></span>
+        
+      </a>
+      <nav class="main-nav" aria-label="ناوبری اصلی">
+        <a href="#menu">منو</a>
+        <a href="#bestsellers">پرفروش‌ها</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-cart" id="openCart" type="button" aria-label="مشاهده سبد خرید">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 1.9-1.4L22 8H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg>
+          <span class="cart-count" id="headerCartCount">۰</span>
+        </button>
+        <a class="button button-yellow header-order" href="#menu">سفارش بده <span aria-hidden="true">←</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        
+        <h1 id="heroTitle">گرسنگی رو<br><span>جدی بگیر!</span></h1>
+        
+        <div class="hero-actions">
+          <a class="button button-yellow" href="#menu">دیدن منو <span aria-hidden="true">←</span></a>
+          <a class="text-link" href="#bestsellers">ببین چی پرفروشه <span aria-hidden="true">↙</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>اول انتخاب کن، بعد به بقیه‌اش فکر کن.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="assets/images/hero-burger.jpg" alt="همبرگر تازه با پنیر، کاهو و گوجه" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap best-section" id="bestsellers" aria-labelledby="bestTitle">
+      <div class="section-heading">
+        <div><h2 id="bestTitle">پرفروش‌ها<span class="heading-period">.</span></h2></div>
+        <a class="underlined-link" href="#menu">کل منو رو ببین <span aria-hidden="true">←</span></a>
+      </div>
+      <div class="product-grid best-grid" id="bestProducts" aria-live="polite"></div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menuTitle">
+      <div class="wrap menu-wrap">
+        <div class="section-heading menu-main-heading">
+          <div><span class="section-kicker">چیزی که دنبالش بودی</span><h2 id="menuTitle">منوی MOON<span class="heading-period">.</span></h2></div>
+          
+        </div>
+
+        <nav class="category-nav" id="categoryNav" aria-label="دسته‌بندی غذاها"></nav>
+        <div id="menuSections" class="menu-sections"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-brand-block">
+        <a class="brand footer-brand" href="#top" aria-label="بازگشت به ابتدای صفحه"><span class="brand-word">MOON<span class="brand-dot">.</span></span></a>
+        
+      </div>
+      <div class="footer-column footer-contact-column"><h3>راه‌های ارتباطی</h3><a id="footerPhone" href="#" class="footer-muted">شماره تماس تنظیم نشده</a><a id="footerTelegram" href="#" class="footer-muted" hidden>تلگرام</a><a id="footerWhatsApp" href="#" class="footer-muted" hidden>واتساپ</a></div>
+      <div class="footer-column footer-location-column"><h3>ما کجاییم؟</h3><p id="footerAddress" class="footer-muted">آدرس رستوران در فایل تنظیمات وارد نشده.</p><a id="footerMap" href="#" class="footer-map" hidden target="_blank" rel="noopener">دیدن روی نقشه <span aria-hidden="true">↗</span></a><p id="footerHours" class="footer-hours" hidden></p></div>
+    </div>
+    <div class="wrap footer-bottom"><span>© MOON — تمامی حقوق محفوظ است.</span><div class="footer-bottom-actions"><a id="footerInstagram" class="footer-social-link is-unconfigured" href="#" aria-label="صفحه اینستاگرام MOON" title="اینستاگرام" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.7" cy="6.6" r="1.15" fill="currentColor"/></svg></a><a href="#menu" class="footer-back-link">برگشت به منو <span aria-hidden="true">↑</span></a></div></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true" inert>
+    <div class="drawer-header"><div><span class="section-kicker">سفارش تو</span><h2 id="cartTitle">سبد خرید<span class="heading-period">.</span></h2></div><button class="close-button" id="closeCart" type="button" aria-label="بستن سبد خرید">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div id="cartEmpty" class="cart-empty"><span class="cart-empty-doodle">+</span><h3>سبدت هنوز خالیه</h3><p>یه چیز خوشمزه انتخاب کن تا اینجا ببینیش.</p><button class="button button-yellow" id="browseMenu" type="button">رفتن به منو</button></div>
+    <div class="cart-summary" id="cartSummary" hidden>
+      <div class="summary-row"><span>جمع سفارش</span><strong id="cartSubtotal">۰ تومان</strong></div>
+      <div class="summary-row delivery-row"><span>هزینه ارسال</span><span id="cartDelivery">پس از تأیید</span></div>
+      <p class="delivery-hint" id="deliveryHint">هزینه ارسال هنوز در تنظیمات وارد نشده است.</p>
+      <button class="button button-yellow checkout-button" id="goCheckout" type="button">مشاهده سبد و ثبت سفارش <span aria-hidden="true">←</span></button>
+      <p class="secure-note">بدون نیاز به ساخت حساب کاربری</p>
+    </div>
+  </aside>
+
+  <div class="mobile-cart-bar" id="mobileCartBar" hidden>
+    <button type="button" id="mobileCartOpen" class="mobile-cart-button"><span class="mobile-cart-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 1.9-1.4L22 8H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg><b id="mobileCartCount">۰</b></span><span>مشاهده سبد</span><strong id="mobileCartSubtotal">۰ تومان</strong></button>
+  </div>
+
+  <dialog class="custom-dialog" id="customDialog" aria-labelledby="customTitle">
+    <form method="dialog" class="dialog-shell" id="customForm">
+      <div class="dialog-header"><div><span class="section-kicker">سفارشی‌سازی</span><h2 id="customTitle">سلیقه‌ی تو، انتخاب تو</h2></div><button type="button" class="close-button" data-close-dialog aria-label="بستن پنجره">×</button></div>
+      <div class="custom-product" id="customProduct"></div>
+      <div id="customOptions" class="custom-options"></div>
+      <div class="dialog-footer"><div class="dialog-total"><span>قیمت این آیتم</span><strong id="customPrice">۰ تومان</strong></div><button class="button button-yellow" id="confirmCustomization" type="button">افزودن به سبد <span aria-hidden="true">←</span></button></div>
+    </form>
+  </dialog>
+
+  <dialog class="custom-dialog checkout-dialog" id="checkoutDialog" aria-labelledby="checkoutTitle">
+    <form class="dialog-shell" id="checkoutForm" novalidate>
+      <div class="dialog-header"><div><span class="section-kicker">تقریباً آماده‌ست</span><h2 id="checkoutTitle">ثبت سفارش<span class="heading-period">.</span></h2></div><button type="button" class="close-button" data-close-dialog aria-label="بستن پنجره">×</button></div>
+      <div class="checkout-layout">
+        <div class="checkout-fields">
+          <div class="form-field"><label for="customerName">اسم شما</label><input id="customerName" name="customerName" type="text" placeholder="مثلاً نازنین محمدی" autocomplete="name" required></div>
+          <div class="form-field"><label for="customerPhone">شماره تماس</label><input id="customerPhone" name="customerPhone" type="tel" inputmode="tel" placeholder="09xxxxxxxxx" autocomplete="tel" required></div>
+          <fieldset class="fulfillment-field"><legend>چطور تحویل بگیری؟</legend><label class="radio-card"><input type="radio" name="fulfillment" value="delivery" checked><span><strong>ارسال به آدرس</strong><small>سفارش رو برام بیار</small></span></label><label class="radio-card"><input type="radio" name="fulfillment" value="pickup"><span><strong>تحویل حضوری</strong><small>خودم میام می‌گیرم</small></span></label></fieldset>
+          <div class="form-field" id="addressField"><label for="customerAddress">آدرس کامل</label><textarea id="customerAddress" name="customerAddress" rows="2" placeholder="خیابان، کوچه، پلاک و واحد"></textarea></div>
+          <div class="form-field"><label for="orderNotes">توضیحات سفارش <span>اختیاری</span></label><textarea id="orderNotes" name="orderNotes" rows="2" placeholder="مثلاً سس جداگانه باشه"></textarea></div>
+          <p class="form-error" id="checkoutError" role="alert" hidden></p>
+        </div>
+        <aside class="checkout-recap"><h3>خلاصه سفارش</h3><div id="checkoutItems" class="checkout-items"></div><div class="summary-row"><span>جمع سفارش</span><strong id="checkoutSubtotal">۰ تومان</strong></div><div class="summary-row delivery-row"><span>هزینه ارسال</span><span id="checkoutDelivery">پس از تأیید</span></div><div class="summary-final"><span>مبلغ قابل پرداخت</span><strong id="checkoutTotal">۰ تومان + هزینه ارسال تأییدشده</strong></div><p class="checkout-disclaimer" id="checkoutDisclaimer">این صفحه به درگاه پرداخت متصل نیست. سفارش بعد از هماهنگی با رستوران تأیید می‌شود.</p></aside>
+      </div>
+      <div class="checkout-footer"><button type="submit" class="button button-yellow" id="submitOrder">ارسال سفارش <span aria-hidden="true">←</span></button><button type="button" class="button button-quiet" data-close-dialog>بازگشت به منو</button></div>
+      <div class="checkout-result" id="checkoutResult" role="status" hidden></div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
